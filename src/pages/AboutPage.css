@@ -316,3 +316,91 @@
   .story-badge span:first-child { font-size: 1.2rem; }
   .timeline-item { flex-direction: column; gap: 0.5rem; }
 }
+
+/* ===== MOBILE ABOUT ===== */
+@media (max-width: 480px) {
+  .about-hero {
+    min-height: 25vh;
+  }
+  .about-hero-title {
+    font-size: 2rem;
+  }
+  .about-hero-sub {
+    font-size: 0.9rem;
+  }
+  .story-grid {
+    gap: 1.5rem;
+  }
+  .story-text p {
+    font-size: 0.95rem;
+  }
+  .story-badge {
+    bottom: -10px;
+    right: -10px;
+    padding: 0.5rem 1rem;
+  }
+  .story-badge span:first-child {
+    font-size: 1rem;
+  }
+  .story-badge span:last-child {
+    font-size: 0.8rem;
+  }
+  .about-mission {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 2rem 0;
+  }
+  .mission-card {
+    padding: 1.2rem 1rem;
+  }
+  .mission-icon {
+    font-size: 2.2rem;
+  }
+  .mission-card h3 {
+    font-size: 1.1rem;
+  }
+  .mission-card p {
+    font-size: 0.9rem;
+  }
+  .mission-card ul li {
+    font-size: 0.9rem;
+  }
+  .team-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .team-card {
+    padding: 1.2rem 1rem;
+  }
+  .team-img-placeholder {
+    font-size: 3rem;
+  }
+  .team-card h4 {
+    font-size: 1.1rem;
+  }
+  .team-bio {
+    font-size: 0.85rem;
+  }
+  .timeline-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .timeline-item {
+    padding: 1rem 1.2rem;
+  }
+  .timeline-year {
+    font-size: 1.4rem;
+    min-width: 60px;
+  }
+  .timeline-content h4 {
+    font-size: 1rem;
+  }
+  .about-cta h3 {
+    font-size: 1.4rem;
+  }
+  .about-cta .btn-primary {
+    padding: 0.7rem 2rem;
+    font-size: 0.9rem;
+    width: 80%;
+  }
+}

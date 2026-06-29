@@ -334,3 +334,76 @@
   .section-title { font-size: 2.2rem; }
   .service-includes ul { grid-template-columns: 1fr; }
 }
+
+/* ===== MOBILE SERVICES ===== */
+@media (max-width: 480px) {
+  .services-hero {
+    min-height: 25vh;
+  }
+  .services-hero-title {
+    font-size: 2rem;
+  }
+  .services-hero-sub {
+    font-size: 0.9rem;
+  }
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .service-card {
+    border-radius: 12px;
+  }
+  .service-image-wrapper {
+    aspect-ratio: 16/10;
+  }
+  .service-title {
+    font-size: 1.2rem;
+  }
+  .service-teaser {
+    font-size: 0.9rem;
+  }
+  .service-desc {
+    font-size: 0.9rem;
+  }
+  .service-includes ul {
+    grid-template-columns: 1fr;
+  }
+  .service-includes ul li {
+    font-size: 0.85rem;
+  }
+  .service-meta {
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 0.85rem;
+  }
+  .service-btn {
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem 1rem;
+  }
+  .process-steps {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .step {
+    padding: 1.2rem 1rem;
+  }
+  .step-number {
+    font-size: 1.8rem;
+  }
+  .step h4 {
+    font-size: 1rem;
+  }
+  .step p {
+    font-size: 0.85rem;
+  }
+  .testimonial-quote {
+    padding: 1.5rem;
+  }
+  .testimonial-quote p {
+    font-size: 1rem;
+  }
+  .quote-icon {
+    font-size: 3rem;
+  }
+}

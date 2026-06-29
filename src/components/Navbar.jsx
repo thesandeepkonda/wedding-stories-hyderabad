@@ -52,22 +52,22 @@ function Navbar() {
           ))}
           {/* Mobile CTA (hidden on desktop) */}
           <li className="mobile-cta">
-            <button
+            {/* <button
               className="nav-cta"
               onClick={() => window.location.href = '/contact'}
             >
               Book Now
-            </button>
+            </button> */}
           </li>
         </ul>
 
-        {/* Desktop CTA */}
+        {/* Desktop CTA
         <button
           className="nav-cta desktop-cta"
           onClick={() => window.location.href = '/contact'}
         >
           Book Now
-        </button>
+        </button> */}
 
         {/* Hamburger */}
         <button

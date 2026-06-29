@@ -2,7 +2,7 @@ import React from 'react';
 import './FloatingButtons.css';
 
 function FloatingButtons() {
-  const phone = '919876543210'; // Replace with your number (without +)
+  const phone = '919494348355'; // Replace with your number (without +)
   const message = 'Hi! I would like to know more about your wedding photography packages.';
 
   return (

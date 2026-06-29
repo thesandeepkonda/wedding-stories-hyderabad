@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './ServicesPage.css';
 
 const services = [
@@ -163,8 +164,10 @@ const services = [
     }
   }
 ];
+
 function ServicesPage() {
   const [expandedId, setExpandedId] = useState(null);
+  const navigate = useNavigate(); // ✅ Added navigate hook
 
   const toggleExpand = (id) => {
     setExpandedId(expandedId === id ? null : id);
@@ -222,7 +225,7 @@ function ServicesPage() {
                   </div>
                   <button 
                     className="service-btn"
-                    onClick={() => window.location.href = '/contact'}
+                    onClick={() => navigate('/contact')} // ✅ Fixed: now uses navigate
                   >
                     Enquire Now
                   </button>

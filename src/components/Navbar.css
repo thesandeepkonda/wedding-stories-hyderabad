@@ -297,3 +297,41 @@
     font-size: 1.2rem;
   }
 }
+
+/* ===== EXTRA MOBILE TWEAKS ===== */
+@media (max-width: 480px) {
+  .nav-container {
+    padding: 0 0.8rem;
+    min-height: 56px;
+  }
+  .navbar {
+    padding: 0.4rem 0;
+  }
+  .navbar.scrolled {
+    padding: 0.3rem 0;
+  }
+  .nav-logo {
+    font-size: 1.1rem;
+    gap: 0.4rem;
+  }
+  .logo-icon {
+    font-size: 1.3rem;
+  }
+  .logo-text {
+    font-size: 0.95rem;
+  }
+  .logo-sub {
+    font-size: 0.5rem;
+    padding: 0.1rem 0.5rem;
+  }
+  .nav-menu a {
+    font-size: 1.1rem !important;
+  }
+  .hamburger .bar {
+    width: 26px;
+    height: 3px;
+  }
+  .nav-menu {
+    width: 85%;
+  }
+}
